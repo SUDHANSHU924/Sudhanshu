@@ -2,11 +2,13 @@
 import { smoothScrollTo, focusTrap, loadScriptOnce } from './utils.js';
 import { modalAnimation } from './animations.js';
 
+const assetBase = import.meta.env.BASE_URL;
+
 const projectsData = [
-  { id:1, title:'AI & ML Projects', desc:'Working on Image Classification and Custom Vision using Microsoft Azure during AI internship.', stack:['Python','Azure','Machine Learning'], repo:'https://github.com/sidhu90989', model:'/assets/models/project-3d-01.glb' },
-  { id:2, title:'Android Applications', desc:'Developed Android apps during internship at CipherByte Technologies.', stack:['Android','Java','Kotlin'], repo:'https://github.com/sidhu90989', model:'/assets/models/project-3d-02.glb' },
-  { id:3, title:'UI/UX Design Projects', desc:'Created user interfaces and experiences at Cognifyz Technologies.', stack:['Figma','Adobe XD','Design'], repo:'https://github.com/sidhu90989', model:'/assets/models/project-3d-03.glb' },
-  { id:4, title:'Python Development', desc:'Built Python applications and scripts during CodSoft internship.', stack:['Python','Django','Flask'], repo:'https://github.com/sidhu90989', model:'/assets/models/project-3d-01.glb' }
+  { id:1, title:'AI & ML Projects', desc:'Working on Image Classification and Custom Vision using Microsoft Azure during AI internship.', stack:['Python','Azure','Machine Learning'], repo:'https://github.com/sidhu90989', model:`${assetBase}assets/models/project-3d-01.glb` },
+  { id:2, title:'Android Applications', desc:'Developed Android apps during internship at CipherByte Technologies.', stack:['Android','Java','Kotlin'], repo:'https://github.com/sidhu90989', model:`${assetBase}assets/models/project-3d-02.glb` },
+  { id:3, title:'UI/UX Design Projects', desc:'Created user interfaces and experiences at Cognifyz Technologies.', stack:['Figma','Adobe XD','Design'], repo:'https://github.com/sidhu90989', model:`${assetBase}assets/models/project-3d-03.glb` },
+  { id:4, title:'Python Development', desc:'Built Python applications and scripts during CodSoft internship.', stack:['Python','Django','Flask'], repo:'https://github.com/sidhu90989', model:`${assetBase}assets/models/project-3d-01.glb` }
 ];
 
 export function initUI(){
@@ -75,6 +77,7 @@ function openProjectModal(project){
 
 function setupContactForm(){
   const form = document.getElementById('contact-form');
+  if(!form) return;
   form.addEventListener('submit', e=>{
     e.preventDefault();
     alert('Form submission stub. Configure Netlify/Formspree.');
@@ -83,6 +86,7 @@ function setupContactForm(){
 
 function setupDegreeBadge(){
   const badge = document.querySelector('.degree-badge');
+  if(!badge) return;
   badge.addEventListener('mouseenter', ()=> badge.classList.add('flip'));
   badge.addEventListener('mouseleave', ()=> badge.classList.remove('flip'));
   badge.addEventListener('keydown', e=>{ if(e.key==='Enter') badge.classList.toggle('flip'); });

@@ -83,8 +83,11 @@ function initSmoothScroll(){
 function initCustomCursor(){
   if(window.innerWidth <= 768) return;
   const cursor = document.getElementById('custom-cursor');
+  if(!cursor) return;
   const dot = cursor.querySelector('.cursor-dot');
   const outline = cursor.querySelector('.cursor-outline');
+  if(!dot || !outline) return;
+  document.body.classList.add('has-custom-cursor');
   
   let mouseX=0, mouseY=0;
   let dotX=0, dotY=0;
