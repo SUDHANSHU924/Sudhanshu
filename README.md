@@ -43,7 +43,7 @@ I am an aspiring SDE with a strong interest in building real-world products usin
 
 ## Connect with Me
 
-- Portfolio: [PASTE YOUR PORTFOLIO LINK HERE](PASTE%20YOUR%20PORTFOLIO%20LINK%20HERE)
+- Portfolio: (https://sudhanshu924.github.io/Sudhanshu/)
 - GitHub: https://github.com/sidhu90989
 - LinkedIn: https://www.linkedin.com/in/sudhanshu-90989sid
 
