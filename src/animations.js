@@ -73,10 +73,23 @@ export function initScrollAnimations(){
   });
   
   // Horizontal scroll for projects
-  const projectsTrack = document.getElementById('projects-track');
-  if(projectsTrack && window.innerWidth > 768){
-    const scrollWidth = projectsTrack.scrollWidth - window.innerWidth;
-    gsap.to(projectsTrack, {
+  let projectsTween = null;
+
+  function setupProjectsScroll(){
+    if(projectsTween){
+      projectsTween.scrollTrigger?.kill();
+      projectsTween.kill();
+      projectsTween = null;
+      gsap.set('#projects-track', { x: 0 });
+    }
+
+    const projectsTrack = document.getElementById('projects-track');
+    if(!projectsTrack || window.innerWidth <= 768) return;
+
+    const scrollWidth = Math.max(0, projectsTrack.scrollWidth - window.innerWidth);
+    if(scrollWidth === 0) return;
+
+    projectsTween = gsap.to(projectsTrack, {
       x: -scrollWidth,
       ease: 'none',
       scrollTrigger: {
@@ -89,6 +102,20 @@ export function initScrollAnimations(){
       }
     });
   }
+
+  requestAnimationFrame(() => {
+    setupProjectsScroll();
+    ScrollTrigger.refresh();
+  });
+
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      setupProjectsScroll();
+      ScrollTrigger.refresh();
+    }, 150);
+  });
 }
 
 export function sectionReveal(selector){
