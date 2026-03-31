@@ -17,7 +17,17 @@ function init(){
   const canvas = document.getElementById('three-canvas');
   threeCtx = initThree(canvas);
   loading = createLoadingOverlay();
-  loadHeroModel(p=> loading.setProgress(p)).then(()=>{ loading.setProgress(100); setTimeout(()=>loading.remove(),800); startLoop(); });
+  loadHeroModel(p=> loading.setProgress(p))
+    .then(()=>{
+      loading.setProgress(100);
+      setTimeout(()=>loading.remove(),800);
+      startLoop();
+    })
+    .catch((err)=>{
+      console.warn('Hero model failed to load, falling back', err);
+      loading.remove();
+      enableFallback();
+    });
   setupPointer();
   setupParticles();
   introTimeline();

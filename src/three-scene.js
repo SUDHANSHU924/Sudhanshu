@@ -44,7 +44,7 @@ function addLights(){
 function addEnvironment(){
   // Placeholder environment – user should replace HDR
   const texLoader = new THREE.TextureLoader();
-  texLoader.load(`${assetBase}assets/hdr/studio.hdr`, () => { /* Convert if real HDR via RGBELoader */ });
+  texLoader.load(`${assetBase}hdr/studio.hdr`, () => { /* Convert if real HDR via RGBELoader */ });
   scene.background = null; // transparent for overlay effect
 }
 
@@ -64,7 +64,7 @@ export function loadHeroModel(onProgress){
     const draco = new DRACOLoader();
     draco.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.7/');
     loader.setDRACOLoader(draco);
-    loader.load(`${assetBase}assets/models/hero-scene.glb`, (gltf)=>{
+    loader.load(`${assetBase}models/hero-scene.glb`, (gltf)=>{
       heroModel = gltf.scene;
       heroModel.traverse(obj=>{ if(obj.isMesh){ obj.castShadow=true; obj.receiveShadow=true; interactiveObjects.push(obj); }});
       heroModel.position.set(0,0,0);

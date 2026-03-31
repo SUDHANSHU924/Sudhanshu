@@ -3,6 +3,7 @@ import { smoothScrollTo, focusTrap, loadScriptOnce } from './utils.js';
 import { modalAnimation } from './animations.js';
 
 const assetBase = import.meta.env.BASE_URL;
+const modelUrl = (fileName) => `${assetBase}models/${fileName}`;
 
 const projectsData = [
   {
@@ -11,7 +12,7 @@ const projectsData = [
     desc: 'SMS spam classifier using a pretrained scikit-learn model and vectorizer.',
     stack: ['GitHub'],
     repo: 'https://github.com/SUDHANSHU924/SMS-Spam-Detection-Model',
-    model: `${assetBase}assets/models/project-3d-01.glb`
+    model: modelUrl('project-3d-01.glb')
   },
   {
     id: 2,
@@ -19,7 +20,7 @@ const projectsData = [
     desc: 'Notebook project analyzing fitness data with cleaning, visualization, and insights.',
     stack: ['GitHub'],
     repo: 'https://github.com/SUDHANSHU924/Personal-Fitness-Tracker-',
-    model: `${assetBase}assets/models/project-3d-02.glb`
+    model: modelUrl('project-3d-02.glb')
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ const projectsData = [
     desc: 'Portfolio repository highlighting skills, experience, and projects.',
     stack: ['GitHub'],
     repo: 'https://github.com/SUDHANSHU924/Sudhanshu',
-    model: `${assetBase}assets/models/project-3d-03.glb`
+    model: modelUrl('project-3d-03.glb')
   },
   {
     id: 4,
@@ -35,7 +36,7 @@ const projectsData = [
     desc: 'Intelligent multi-modal assistant with NLP, vision, voice, and system modules.',
     stack: ['GitHub'],
     repo: 'https://github.com/SUDHANSHU924/AURA2.O',
-    model: `${assetBase}assets/models/project-3d-01.glb`
+    model: modelUrl('project-3d-01.glb')
   },
   {
     id: 5,
@@ -43,7 +44,7 @@ const projectsData = [
     desc: 'Eco-focused ride sharing platform with real-time location and dynamic pricing.',
     stack: ['GitHub'],
     repo: 'https://github.com/SUDHANSHU924/WARGO',
-    model: `${assetBase}assets/models/project-3d-02.glb`
+    model: modelUrl('project-3d-02.glb')
   },
   {
     id: 6,
@@ -51,7 +52,7 @@ const projectsData = [
     desc: 'Payroll management project repository on GitHub.',
     stack: ['GitHub'],
     repo: 'https://github.com/SUDHANSHU924/Payroll-management-system',
-    model: `${assetBase}assets/models/project-3d-03.glb`
+    model: modelUrl('project-3d-03.glb')
   }
 ];
 
