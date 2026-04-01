@@ -3,7 +3,7 @@
 Aspiring Software Development Engineer (SDE) | CSE'27
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=vercel)](https://sudhanshu924.github.io/Sudhanshu/))
-[![GitHub](https://img.shields.io/badge/GitHub-sidhu90989-181717?style=for-the-badge&logo=github)](https://github.com/sidhu90989)
+[![GitHub](https://img.shields.io/badge/GitHub-SUDHANSHU924-181717?style=for-the-badge&logo=github)](https://github.com/SUDHANSHU924)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sudhanshu%20Suryawanshi-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshu-90989sid)
 
 ## About Me
