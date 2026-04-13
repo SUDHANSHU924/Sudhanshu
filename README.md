@@ -1,58 +1,24 @@
-# Sudhanshu Suryawanshi
+# 💫 About Me:
+🚀 Aspiring Software Development Engineer (SDE) | CSE’27<br>I’m a Computer Science student passionate about building real-world solutions using technology and continuously improving my problem-solving skills.<br><br>💻 I have hands-on experience in:<br>• Web Development (HTML, CSS, JavaScript)<br>• Data Structures & Algorithms (DSA)<br>• Object-Oriented Programming (OOPS)<br>• Cloud Computing (AWS, Azure)<br>• Python & C++<br><br>🛠️ I’ve worked on projects like:<br>• 📩 SMS Spam Detection System using Machine Learning & NLP<br>• 🏃 AI-powered Sports Talent Platform (React Native, TensorFlow, OpenCV)<br>• 💪 Fitness Tracker Web App with real-time predictions<br><br>☁️ I also have exposure to:<br>• AWS Cloud Foundations<br>• AI/ML concepts (via Microsoft & Edunet Foundation internship)<br>• Database Management (SQL, DBMS)<br><br>🎯 Currently focused on:<br>• Strengthening DSA & problem-solving<br>• Building scalable web & AI-based applications<br>• Preparing for SDE roles<br><br>🌱 I believe in learning by building, staying consistent, and growing every day.<br>🤝 Open to:<br>Internships | SDE roles | Collaborations | Tech discussions<br>Let’s connect and build something amazing! 🚀
 
-Aspiring Software Development Engineer (SDE) | CSE'27
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=vercel)](https://sudhanshu924.github.io/Sudhanshu/))
-[![GitHub](https://img.shields.io/badge/GitHub-SUDHANSHU924-181717?style=for-the-badge&logo=github)](https://github.com/SUDHANSHU924)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sudhanshu%20Suryawanshi-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshu-90989sid)
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sudhanshu-90989sid) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@Sudhanshu Suryawanshi) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sidhu90989@gmail.com) 
 
-## About Me
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=SUDHANSHU924&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=SUDHANSHU924&theme=blue-green&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=SUDHANSHU924&theme=blue-green&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-I am an aspiring SDE with a strong interest in building real-world products using clean code, machine learning, and scalable systems. I enjoy working across the stack, from intelligent backends to polished user interfaces, and I am actively seeking impactful opportunities to learn and grow.
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=SUDHANSHU924&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-## Skills
-
-- Languages: C++, Python
-- Web: HTML, CSS, JavaScript
-- Backend: Django, Node.js (basic)
-- Databases: SQL, DBMS
-- Cloud: AWS, Azure
-- Tools: React Native, Flutter, Streamlit, TensorFlow, OpenCV, Power BI
-
-## Projects
-
-1. SMS Spam Detection System (ML + NLP)
-2. AI Sports Talent Platform (React Native, TensorFlow, OpenCV)
-3. Fitness Tracker Web App (ML + Streamlit)
-
-## Experience
-
-- AI Intern at Edunet Foundation (Microsoft + AICTE)
-- Google Student Ambassador
-- Student Ambassador at LetsUpgrade
-- Android Developer Intern
-- Python Developer Intern
-- UI/UX Designer Intern
-
-## Certifications
-
-- AWS Cloud Foundations
-- Microsoft Azure Fundamentals
-- C++ Programming (UC Santa Cruz)
-- OOPS (NPTEL)
-
-## Connect with Me
-
-- Portfolio: (https://sudhanshu924.github.io/Sudhanshu/)
-- GitHub: https://github.com/sidhu90989
-- LinkedIn: https://www.linkedin.com/in/sudhanshu-90989sid
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sidhu90989&show_icons=true&theme=tokyonight)
-![GitHub Streak](https://streak-stats.demolab.com?user=sidhu90989&theme=tokyonight)
-3. Add more sections if needed (e.g., Blog).
-4. Deploy & monitor with Lighthouse.
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-Happy building! 🚀
+[![](https://komarev.com/ghpvc/?username=SUDHANSHU924&icon=4&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
